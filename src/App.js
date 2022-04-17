@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React,{Suspense} from 'react'
+import Home from "./components/home/Home";
+import Jogs from "./components/jogs/Jogs";
+import Contact from "./components/contact/Contact";
+import {Routes, Route, NavLink} from 'react-router-dom'
+import NotFound from "./components/NotFound/NotFound";
+import Info from "./components/info/Info";
+import Layout from "./Layout/header/Layout";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Suspense fallback="Loading...">
+            <Layout/>
+        <Routes>
+            <Route path="/"  element={<Home/>}/>
+            <Route path="/jogs"  element={<Jogs/>}/>
+            <Route path="/contact"  element={<Contact/>}/>
+            <Route path="/info"  element={<Info/>}/>
+            <Route path="*"  element={<NotFound/>}/>
+        </Routes>
+        </Suspense>
     </div>
   );
 }

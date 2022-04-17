@@ -1,0 +1,28 @@
+.info{
+    margin-top: 201px;
+}
+
+.info__about{
+    margin: 0 auto;
+    width: 614px;
+}
+.info__title{
+    font-family: SFUIText,sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: green;
+}
+.info__subtitle{
+    font-family: SFUIText, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    color: #707070;
+}

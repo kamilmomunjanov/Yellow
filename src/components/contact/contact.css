@@ -1,0 +1,36 @@
+.nothing{
+    margin-top: 356px;
+}
+
+.nothing__center{
+   text-align: center;
+}
+
+.nothing__title{
+    font-family: SFUIText,sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    color: #a4a2a2;
+    margin-top: 47px;
+}
+.nothing__btn{
+    margin: 150px 0 30px;
+    width: 249px;
+    height: 60px;
+    border-radius: 36px;
+    border: 3px solid #e990f9;
+    font-family: SFUIText,sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #e990f9;
+    cursor: pointer;
+    background: transparent;
+}
