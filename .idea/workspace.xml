@@ -1,29 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0d8fe39-c6db-46d7-9246-1e9043985f0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="5d8998a0-ebd1-4fd5-b86d-3e55e712d948" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/login/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/login/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/register/Register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/register/register.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Layout/header/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/header/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NotFound/NotFound.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NotFound/NotFound.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/homeSection/HomeSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/homeSection/HomeSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/homeSection/homeSection.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/homeSection/homeSection.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/info/Info.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/info/Info.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/info/info.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/info/info.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/jogs/Jogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/jogs/Jogs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/jogs/jogs.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/jogs/jogs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/jogs/modal/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/jogs/modal/Modal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/jogs/modal/modal.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/jogs/modal/modal.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,59 +31,54 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="27sIxacThNM1uBbH3u484B9mulC" />
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="287mLQODTH5DuYHXaMJzXltTfFW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Admin\Desktop\yellowproject\src\assets\modal" />
-      <recent name="C:\Users\Admin\Desktop\yellowproject\src\assets\contact" />
-      <recent name="C:\Users\Admin\Desktop\yellowproject\src\assets\jogs" />
-      <recent name="C:\Users\Admin\Desktop\yellowproject\src\assets\home" />
-    </key>
-  </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e0d8fe39-c6db-46d7-9246-1e9043985f0f" name="Default Changelist" comment="" />
-      <created>1650102616590</created>
+      <changelist id="5d8998a0-ebd1-4fd5-b86d-3e55e712d948" name="Changes" comment="" />
+      <created>1650575941707</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1650102616590</updated>
-      <workItem from="1650102627315" duration="18885000" />
+      <updated>1650575941707</updated>
+      <workItem from="1650575942879" duration="211000" />
+      <workItem from="1650576798104" duration="34000" />
+      <workItem from="1650644577032" duration="11387000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/App.js</url>
-          <line>7</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

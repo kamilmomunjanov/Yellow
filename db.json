@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "email": "kama@mail.ru",
+      "password": "$2a$10$pDWg98/yR4N4ZKtt7/O0XO0ko/2M.lt2uxRoygCHF79VN0fDE0QAu",
+      "login": "adsfsd",
+      "phone": "asdfasdfa",
+      "orders": [],
+      "id": 1
+    },
+    {
+      "email": "kam@mail.ru",
+      "password": "$2a$10$U4w/Qdx9YJ2fqudfj3sfJuWRUJqQ3pGeLxX6XB5dSZLPBNi/VMjZ2",
+      "login": "fdgdfgd",
+      "phone": "gfdsgsdfg",
+      "orders": [],
+      "id": 2
+    },
+    {
+      "email": "gfhf@mail.ru",
+      "password": "$2a$10$CySg8xZPBVgyTjV5J967be9FQkGd/nvgK5MeOkcvIFCFjomUiN/iG",
+      "login": "dsgsd",
+      "phone": "zdfgzdfg",
+      "orders": [],
+      "id": 3
+    },
+    {
+      "email": "Sfs@mail.ruds",
+      "password": "$2a$10$PXK2DCcdLw3X3h1CI0wKkuQ4efjKUizS5jzSn8RsHW8I.pJ11uSiq",
+      "login": "fsdfsdf",
+      "phone": "sdfsdfsdf",
+      "orders": [],
+      "id": 4
+    },
+    {
+      "email": "sf@ma",
+      "password": "$2a$10$qPOXfAd0mpX5d7qPMtttuujbD1IcUNz8aRws.LaM6EiUp.98okW0u",
+      "login": "dzfgdfg",
+      "phone": "dfgsdf",
+      "orders": [],
+      "id": 5
+    },
+    {
+      "email": "kamil@mail.ru",
+      "password": "$2a$10$RejwPTbiRDs7YTlUfF4PZ.lfHo3uoPRjtodERZUPxZFXw.T6TvGZG",
+      "login": "dsfsdf",
+      "phone": "dsfsd",
+      "orders": [],
+      "id": 6
+    },
+    {
+      "email": "bios@mail.ru",
+      "password": "$2a$10$rZnHsFIFaJhlegqD.gZRcO0cH0BYfDiZ.GwbFjH8rt7gmIAWBu6jG",
+      "login": "dagdf",
+      "phone": "dfgdfg",
+      "orders": [],
+      "id": 7
+    },
+    {
+      "email": "aziz@mail.ru",
+      "password": "$2a$10$Ah6mdwWCRnyYZN8K3H2njO3AxX.1baTbuf2kraSVPFq3V0zJ/FEZG",
+      "login": "sdgsdg",
+      "phone": "dfgdf",
+      "orders": [],
+      "id": 8
+    }
+  ]
+}
