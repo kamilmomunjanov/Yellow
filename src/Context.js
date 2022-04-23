@@ -11,6 +11,10 @@ export const Context = (props) => {
 
     const navigate = useNavigate()
 
+    const [folder, setFolder] = useState([])
+    const [addFolder, setAddFolder] = useState([])
+
+
     useEffect(() => {
         setUser(JSON.parse(localStorage.getItem('user')))
     },[])
@@ -31,7 +35,7 @@ export const Context = (props) => {
                 setUser(res.data.user)
                 navigate('/')
             }).catch(()=>{
-                alert('Неверный пароль либо email')
+                alert('Неверный пароль')
         })
     }
 
@@ -46,6 +50,10 @@ export const Context = (props) => {
     const value = {
         user,
         setUser,
+        folder,
+        setFolder,
+        addFolder,
+        setAddFolder,
         registerUser,
         logOutUser,
         loginUser,

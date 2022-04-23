@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d8998a0-ebd1-4fd5-b86d-3e55e712d948" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Context.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/login/Login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/login/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/register/Register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/register/register.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/header/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/header/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Context.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/jogs/Jogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/jogs/Jogs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/jogs/jogs.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/jogs/jogs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/jogs/modal/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/jogs/modal/Modal.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +57,8 @@
       <updated>1650575941707</updated>
       <workItem from="1650575942879" duration="211000" />
       <workItem from="1650576798104" duration="34000" />
-      <workItem from="1650644577032" duration="11387000" />
+      <workItem from="1650644577032" duration="15593000" />
+      <workItem from="1650723475443" duration="3165000" />
     </task>
     <servers />
   </component>
@@ -80,5 +75,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

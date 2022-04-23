@@ -39,6 +39,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.jogs__between{
+    display: flex;
+    align-items: center;
+    width: 250px;
     column-gap: 45px;
 }
 
