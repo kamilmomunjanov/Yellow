@@ -87,3 +87,31 @@
     background: transparent;
     margin-top: 15px;
 }
+
+@media (max-width: 576px) {
+    .modal{
+        padding-top: 159pt;
+        opacity: 0;
+        pointer-events: none;
+        transition: 0.5s;
+    }
+    .modal.active{
+        opacity: 1;
+        pointer-events: all;
+    }
+    .modal__content{
+        width: 307pt;
+        height: 380pt;
+    }
+    .modal__label{
+        display: flex;
+        flex-direction: column;
+        row-gap: 6pt;
+        align-items: flex-start;
+    }
+    .modal__subtitle{
+        width: 236pt;
+        height: 31pt;
+    }
+
+}

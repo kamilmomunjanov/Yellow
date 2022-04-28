@@ -34,3 +34,25 @@
 }
 
 
+
+@media(max-width: 576px){
+    .section__box{
+        background: none;
+    }
+    .section__bear-img{
+        fill: #e990f9;
+    }
+    .section__btn{
+        border: 3px solid #e990f9;
+        color: #e990f9;
+        position: relative;
+    }
+    .section__btn::before{
+        content: url("../../../assets/home/bearFace.png");
+        position: absolute;
+        top: -156pt;
+        left: -5pt;
+    }
+}
+
+

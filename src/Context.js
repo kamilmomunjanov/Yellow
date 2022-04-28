@@ -13,6 +13,10 @@ export const Context = (props) => {
 
     const [folder, setFolder] = useState([])
     const [addFolder, setAddFolder] = useState([])
+    const [active, setActive] = useState(false)
+    const [before,  setBefore] = useState('')
+    const [after, setAfter] = useState('')
+    const [openBurger, setOpenBurger] = useState(false)
 
 
     useEffect(() => {
@@ -54,6 +58,14 @@ export const Context = (props) => {
         setFolder,
         addFolder,
         setAddFolder,
+        active,
+        setActive,
+    before,
+        setBefore,
+        after,
+        setAfter,
+        openBurger,
+        setOpenBurger,
         registerUser,
         logOutUser,
         loginUser,

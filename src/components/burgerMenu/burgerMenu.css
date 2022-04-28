@@ -1,0 +1,62 @@
+
+.burger{
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.burger.active{
+    opacity: 1;
+    pointer-events: all;
+}
+
+.burger__box{
+    padding: 20px;
+    background: white;
+    width: 100%;
+    height: 100%;
+    transform: scale(0.5);
+    transition: 0.4s all;
+
+}
+
+.burger__box.active{
+    transform: scale(1);
+}
+.burger__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.burger__menu{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30pt;
+   text-align: center;
+    margin-top: 100pt;
+}
+
+.burger__list{
+    font-size: 26px;
+    color: black;
+    font-weight: 500;
+}
+
+.burger__list.hover{
+    color: #7ed321;
+}
+
+.burger__list:hover.active{
+    color: #7ed321;
+}

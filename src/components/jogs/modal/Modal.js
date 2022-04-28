@@ -1,4 +1,4 @@
-import React, {useContext} from 'react';
+import React, {useContext, useEffect} from 'react';
 import Cancel from '../../../assets/modal/cancel.svg'
 import './modal.css'
 import {CustomContext} from "../../../Context";
@@ -7,20 +7,50 @@ import axios from "axios";
 
 const Modal = ({active,setActive}) => {
 
-    const {folder,setFolder} = useContext(CustomContext)
+    const {setFolder,setAddFolder} = useContext(CustomContext)
 
     const {
         register,
         handleSubmit,
+        reset
     } = useForm()
 
-    const addParameter = (data) => {
-        axios.post('http://localhost:8080/static',data)
+
+
+    const addParameter = async (data) => {
+       await axios.post('http://localhost:8080/static',{
+           ...data, date: new Date(Date.now()).toISOString().slice(0,10)
+       })
             .then((res) => {
                 setFolder(res.data.folder)
+                reset()
             })
-        setFolder('')
+
+       await axios('http://localhost:8080/static')
+            .then(({data}) => setAddFolder(data))
+
     }
+
+    // const addParameter = async (data) => {
+    //     await axios.put(`http://localhost:8080/users/${user.id}`,{
+    //      orders:[
+    //          ...user.orders,
+    //          {
+    //              ...data, date: new Date(Date.now()).toISOString().slice(0,10)
+    //          }
+    //      ]
+    //     })
+    //         .then((res) => {
+    //             setAddFolder(res.data.user.id)
+    //             console.log(setAddFolder)
+    //             reset()
+    //         })
+    //
+    //     await axios(`http://localhost:8080/users/${user.id}`)
+    //         .then(({data}) => setAddFolder(data))
+    //
+    // }
+
 
     return (
         <div className={active ? 'modal active' : 'modal'} onClick={()=>setActive(false)}>
@@ -28,15 +58,15 @@ const Modal = ({active,setActive}) => {
                 <img onClick={()=>setActive(false)}  className='modal__svg' src={Cancel} alt=""/>
                 <form className='modal__form' onSubmit={ handleSubmit(addParameter)}>
                     <label className='modal__label'>
-                        <span className='modal__text'>Distance</span>
+                        <span className='modal__text'>Speed</span>
                         <input {...register('speed')} className='modal__subtitle' type="text"/>
                     </label>
                     <label className='modal__label'>
-                        <span className='modal__text'>Time</span>
+                        <span className='modal__text'>Distance</span>
                         <input {...register('distance')} className='modal__subtitle' type="text"/>
                     </label>
                     <label className='modal__label'>
-                        <span className='modal__text'>Date</span>
+                        <span className='modal__text'>Time</span>
                         <input {...register('time')} className='modal__subtitle' type="text"/>
                     </label>
                     <label>

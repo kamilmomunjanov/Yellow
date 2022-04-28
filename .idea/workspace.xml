@@ -2,12 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d8998a0-ebd1-4fd5-b86d-3e55e712d948" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/burger/logo@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/home/bearFace.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/burgerMenu/BurgerMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/burgerMenu/burgerMenu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/jogs/modal/date/DateFilter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Context.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/header/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/header/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/homeSection/HomeSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/homeSection/HomeSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/homeSection/homeSection.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/homeSection/homeSection.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/info/info.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/info/info.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/jogs/Jogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/jogs/Jogs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/jogs/jogs.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/jogs/jogs.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/jogs/modal/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/jogs/modal/Modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/jogs/modal/modal.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/jogs/modal/modal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/register/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/register/Register.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +59,12 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\Yellow\src\assets\burger" />
+      <recent name="C:\Users\user\Desktop\Yellow\src\assets\home" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,7 +76,10 @@
       <workItem from="1650575942879" duration="211000" />
       <workItem from="1650576798104" duration="34000" />
       <workItem from="1650644577032" duration="15593000" />
-      <workItem from="1650723475443" duration="3165000" />
+      <workItem from="1650723475443" duration="7038000" />
+      <workItem from="1650812898863" duration="15855000" />
+      <workItem from="1651079776065" duration="5771000" />
+      <workItem from="1651147369729" duration="2038000" />
     </task>
     <servers />
   </component>

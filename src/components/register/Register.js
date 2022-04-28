@@ -14,10 +14,6 @@ const Register = () => {
     const {
         register,
         handleSubmit,
-        setError:{
-            errors,
-        },
-        reset,
     } = useForm()
 
 

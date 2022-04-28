@@ -67,94 +67,39 @@
   ],
   "static": [
     {
-      "id": 1,
-      "speed": 15,
-      "distance": 10,
-      "time": 60
+      "speed": "10",
+      "distance": "50",
+      "time": "12",
+      "date": "2022-04-24",
+      "id": 1
     },
     {
-      "speed": "34",
-      "distance": "45",
-      "time": "22",
+      "speed": "15",
+      "distance": "30",
+      "time": "10",
+      "date": "2022-04-24",
       "id": 2
     },
     {
-      "speed": "2",
-      "distance": "23323",
-      "time": "333",
+      "speed": "26",
+      "distance": "30",
+      "time": "8",
+      "date": "2022-04-24",
       "id": 3
     },
     {
-      "speed": "d",
-      "distance": "f",
-      "time": "t",
+      "speed": "13",
+      "distance": "41",
+      "time": "17",
+      "date": "2022-04-24",
       "id": 4
     },
     {
-      "speed": "d",
-      "distance": "f",
-      "time": "t",
+      "speed": "19",
+      "distance": "22",
+      "time": "5",
+      "date": "2022-04-28",
       "id": 5
-    },
-    {
-      "speed": "d",
-      "distance": "f",
-      "time": "t",
-      "id": 6
-    },
-    {
-      "speed": "3",
-      "distance": "3",
-      "time": "3",
-      "id": 7
-    },
-    {
-      "speed": "3",
-      "distance": "3",
-      "time": "3",
-      "id": 8
-    },
-    {
-      "speed": "lp[",
-      "distance": "",
-      "time": "",
-      "id": 9
-    },
-    {
-      "speed": "lp[",
-      "distance": "",
-      "time": "",
-      "id": 10
-    },
-    {
-      "speed": "",
-      "distance": "fdgdf",
-      "time": "fdg",
-      "id": 11
-    },
-    {
-      "speed": "dfsfd",
-      "distance": "fdgdf",
-      "time": "fdg",
-      "id": 12
-    },
-    {
-      "speed": "dfsfd",
-      "distance": "fdgdf",
-      "time": "fdg",
-      "id": 13
-    },
-    {
-      "speed": "dfdf",
-      "distance": "dfdf",
-      "time": "dfdf",
-      "id": 14
-    },
-    {
-      "speed": "ytughj",
-      "distance": "hjhj",
-      "time": "hkjkkkkkkkkkkkkkkk",
-      "id": 15
     }
   ]
 }
